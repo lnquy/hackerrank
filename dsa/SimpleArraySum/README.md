@@ -1,0 +1,1 @@
+[Hackerrank](hackerrank.com/challenges/simple-array-sum/)
