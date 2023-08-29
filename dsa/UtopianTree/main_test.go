@@ -1,6 +1,8 @@
 package main
 
-import "testing"
+import (
+	"testing"
+)
 
 func Test_utopianTree(t *testing.T) {
 	type args struct {
@@ -39,5 +41,6 @@ var _res int32
 func BenchmarkUtopianTree(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		_res = utopianTree(60)
+		// _res = utopianTreePreComputed(60)
 	}
 }
